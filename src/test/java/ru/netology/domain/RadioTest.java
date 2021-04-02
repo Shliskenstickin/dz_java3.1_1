@@ -76,10 +76,10 @@ class RadioTest {
     void crossingPlusBorder() {
         Radio tapok = new Radio();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 11; i++) {
             tapok.plus();
         }
-        assertEquals(9, tapok.getSoundVolume());
+        assertEquals(10, tapok.getSoundVolume());
     }
 
     @Test
